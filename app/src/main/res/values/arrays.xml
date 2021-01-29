@@ -1,0 +1,32 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>Reply</item>
+        <item>Reply to all</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>reply</item>
+        <item>reply_all</item>
+    </string-array>
+
+    <string-array name="settings_section_labels">
+        <item>@string/settings_section_all_label</item>
+        <item>@string/settings_section_world_news_label</item>
+        <item>@string/settings_section_australia_news_label</item>
+        <item>@string/settings_section_uk_news_label</item>
+        <item>@string/settings_section_environment_label</item>
+        <item>@string/settings_section_sport_label</item>
+        <item>@string/settings_section_technology_label</item>
+    </string-array>
+
+    <string-array name="settings_section_values">
+        <item>@string/settings_section_all_value</item>
+        <item>@string/settings_section_world_news_value</item>
+        <item>@string/settings_section_australia_news_value</item>
+        <item>@string/settings_section_uk_news_value</item>
+        <item>@string/settings_section_environment_value</item>
+        <item>@string/settings_section_sport_value</item>
+        <item>@string/settings_section_technology_value</item>
+    </string-array>
+</resources>

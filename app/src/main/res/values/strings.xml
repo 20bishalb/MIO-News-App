@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">MIO</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="no_news">No news found.</string>
+    <string name="no_internet_connection">No internet connection.</string>
+    <string name="settings_menu_item">Settings</string>
+    <string name="settings_title">News Settings</string>
+    //Search Preference
+    <string name="settings_query_label">Search any keyword</string>
+    <string name="settings_query_key" translatable="false">keyword</string>
+    <string name="settings_query_default" translatable="false"/>
+    //Section Preference
+    <string name="settings_section_label">Section</string>
+    <string name="settings_section_key" translatable="false">section</string>
+    <string name="settings_section_default" translatable="false">@string/settings_section_all_value</string>
+
+    <string name="settings_section_all_label">All</string>
+    <string name="settings_section_all_value"/>
+
+    <string name="settings_section_world_news_label">World News</string>
+    <string name="settings_section_world_news_value">world</string>
+
+    <string name="settings_section_australia_news_label">Australia News</string>
+    <string name="settings_section_australia_news_value">australia-news</string>
+
+    <string name="settings_section_uk_news_label">UK News</string>
+    <string name="settings_section_uk_news_value">uk-news</string>
+
+    <string name="settings_section_environment_label">Environment</string>
+    <string name="settings_section_environment_value">environment</string>
+
+    <string name="settings_section_sport_label">Sports</string>
+    <string name="settings_section_sport_value">sport</string>
+
+    <string name="settings_section_technology_label">Technology</string>
+    <string name="settings_section_technology_value">technology</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+</resources>

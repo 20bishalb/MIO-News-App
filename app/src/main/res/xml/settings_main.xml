@@ -1,0 +1,19 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/settings_title">
+
+    <EditTextPreference
+        android:defaultValue="@string/settings_query_default"
+        android:key="@string/settings_query_key"
+        android:title="@string/settings_query_label"
+        android:inputType="text"
+        android:selectAllOnFocus="true"/>
+
+    <ListPreference
+        android:defaultValue="@string/settings_section_default"
+        android:entries="@array/settings_section_labels"
+        android:entryValues="@array/settings_section_values"
+        android:key="@string/settings_section_key"
+        android:title="@string/settings_section_label"/>
+
+</PreferenceScreen>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/section_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Section Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="15sp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textAllCaps="true"
+        android:paddingBottom="2dp"/>
+
+    <TextView
+        android:id="@+id/title_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Title TextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:paddingBottom="6dp"
+        android:maxLines="2"
+        android:ellipsize="end"/>
+
+    <TextView
+        android:id="@+id/date_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textStyle="italic"/>
+
+</LinearLayout>
